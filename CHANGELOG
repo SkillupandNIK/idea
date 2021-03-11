@@ -1,0 +1,6 @@
+11/03/21
+
+- Création de project
+- Addition de node, nodemon, express, dotenv
+- Création d'un serveur de base ayant pour racine server.js
+- Création du git, readme, changelog

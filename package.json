@@ -4,7 +4,8 @@
   "description": "commu project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/SkillupandNIK/idea/issues"
   },
-  "homepage": "https://github.com/SkillupandNIK/idea#readme"
+  "homepage": "https://github.com/SkillupandNIK/idea#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
